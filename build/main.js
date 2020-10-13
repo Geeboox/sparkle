@@ -6,7 +6,7 @@ $('#form-contact').submit(function (e) {
     e.preventDefault()
     let thisForm = $(this)
     let data = $(this).serialize()
-    let url = './mail/mail.php'
+    let url = 'mail.php'
     let inputs = $(this).find('input textarea')
     $.ajax({
         type: "post",

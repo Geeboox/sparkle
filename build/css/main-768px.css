@@ -1,0 +1,136 @@
+.carousel-item {
+    text-align: left;
+    margin-left: 0%;
+}
+
+.middle-indicator {
+    position: absolute;
+    top: 80%;
+    left: unset !important;
+}
+
+.section-banner {
+    padding: 0;
+}
+
+.title-banner{
+    color: #e7ca24;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.text-banner{
+    width: 70%;
+}
+
+.subtitle-banner{
+    color:white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem !important;
+    line-height: 1.5rem !important;
+    letter-spacing: 4px;
+}
+
+.text-banner{
+    color:white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-right: 3rem;
+}
+
+#ca_banner .carousel-item {
+    margin-left: 0;
+}
+
+
+#ca_aboutus .carousel-item {
+    width: 350px;
+}
+
+#ca_aboutus h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 0px;
+}
+
+.section-team h1{
+    font-size: 3rem;
+}
+
+.title-us{
+    font-size: 3rem;
+}
+
+.section-team h4{
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    margin: 0;
+}
+
+.section-team .description {
+    margin-top: 0%;
+}
+
+.section-team h3{
+    margin: 0;
+    font-size: .8rem;
+}
+
+.section-team p {
+    font-size: 0.9rem;
+    line-height: 0.9rem;
+}
+
+.section-contact h1{
+    font-size: 3rem;
+}
+
+.section-contact p{
+    font-size: 1rem;
+}
+
+.valign-wrapper {
+    display: -webkit-inline-box;
+    display: -webkit-inline-box;
+    display: -ms-grid;
+    display: block;
+}
+
+.brand {
+    margin: 4%;
+}
+
+.six{
+    min-height: 80vh;
+}
+
+.two{
+    min-height: 60vh;
+}
+
+#ca_services .owl-item {
+    padding: 0.5%;
+}
+
+.section-banner {
+    margin-top: 20%;
+    margin: 4%;
+}
+
+
+#ca_services .owl-item {
+    height: 70vh;
+}
+
+.section-us {
+    padding: 0;
+}
+
+#ca_services .owl-nav {
+    margin-top: -1%;
+    background: #e1e1e1 !important;
+}

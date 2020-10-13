@@ -40,16 +40,13 @@
 </head>
 <body>
 
-
-<div id="fullpage">
-    
     <div class="section no-pad-bot one" id="index-banner">
 
         <div class="navbar container">
             <nav>
                 <div class="nav-wrapper">
                     <a href="#!" class="brand-logo">
-                        <img class="responsive-img logo" src="assets/img/logo-sparkle.png">
+                        <img class="responsive-img logo" src="assets/img/logo.png">
                     </a>
                 </div>
             </nav>
@@ -322,26 +319,26 @@
                     <form id="form-contact">
                         <div class="row">
                             <div class="input-field col s12">
-                                <input value="" id="name" type="text" class="validate">
-                                <label class="active" for="name">Nombre</label>
+                                <input value="" id="f-name" name="f-name" type="text" class="validate">
+                                <label class="active" for="f-name">Nombre</label>
                             </div>
                         </div>
                         <div class="row">
                             <div class="input-field col s12">
-                                <input value="" id="email" type="email" class="validate">
-                                <label class="active" for="email">Correo</label>
+                                <input value="" id="f-email" name="f-email" type="email" class="validate">
+                                <label class="active" for="f-email">Correo</label>
                             </div>
                         </div>
                         <div class="row">
                             <div class="input-field col s12">
-                                <input value="" id="phone" type="text" class="validate">
-                                <label class="active" for="phone">Teléfono</label>
+                                <input value="" id="f-phone" name="f-phone" minlength="9" maxlength="9" type="text" class="validate">
+                                <label class="active" for="f-phone">Teléfono</label>
                             </div>
                         </div>
                         <div class="row">
                             <div class="input-field col s12">
-                                <textarea id="message" class="materialize-textarea"></textarea>
-                                <label for="message">Consulta</label>
+                                <textarea id="f-message" name="f-message" class="materialize-textarea"></textarea>
+                                <label for="f-message">Consulta</label>
                             </div>
                         </div>
                         <div class="row">
@@ -354,8 +351,6 @@
             </div>
         </div>
     </div>
-
-</div>
 
     <footer class="page-footer">
         <div class="container">
@@ -379,10 +374,10 @@
                 </div>
                 <div class="col l4 s12">
                     <h5 class="white-text">NEWSLETTER</h5>
-                    <form class="single-block-form" >
+                    <form class="single-block-form" id="form-newsletter">
                         <div class="row">
                             <div class="input-field col s12">
-                                <input type="text" name="newsletter" id="newsletter" placeholder="Email*" class="sbf__input">
+                                <input type="email" name="f-newsletter" id="f-newsletter" placeholder="Email*" class="sbf__input">
 					            <input type="submit" value=">" class="btn sbf__button">
                             </div>
                         </div>
@@ -409,9 +404,7 @@
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
     
         <script src="cdn/owlcarousel/owl.carousel.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.js" integrity="sha512-eH2N2Zt2AeLuFlFvRSEeZcVeAESY+8nfIqhxx0XXEou6w/G4lLY3K8UKNYqi6e1pLXDduVF1KF/lbyxy3+X6OA==" crossorigin="anonymous"></script>
 
-        <script src="build/fullpage.js"></script>
         <script src="build/carousel.js"></script>
         <script src="build/main.js"></script>
 
